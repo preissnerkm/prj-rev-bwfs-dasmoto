@@ -1,14 +1,17 @@
+/* This is the style code for Dasmotos ARts_Crafts */
 
 * {
   font-family: helvetica;
 }
+/* This is the Headline Section */
 h1 {
   font-size: 100px;
   font-weight: bold;
   color: khaki;
   text-align: center;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  background-image: url("../images/pattern.jpeg");
 }
+/* Here is the style section for the brushes, frames, paint sections */
 div h2 {
   font-size: 32px;
   font-weight: bold;
@@ -23,6 +26,6 @@ div h2 {
 #paint h2 {
   background-color: skyblue
 }
-p strong {
+.prices {
   color: blue;
 }
